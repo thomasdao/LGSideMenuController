@@ -330,5 +330,6 @@ If you like LGSideMenuController, check out my other useful libraries:
 
 # License
 
-Copyright (c) 2015 Grigorii Lutkov \<grigorii@lutkov.dev\></br>
+Copyright (c) 2015 Grigorii Lutkov \<grigorii@lutkov.dev\>
+
 Licensed under the [MIT License](./LICENSE)
