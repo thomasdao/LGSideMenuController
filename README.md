@@ -33,10 +33,11 @@ Also you can make your very own style, as they are highly customizable.
 
 | LGSideMenuController Version | Min iOS Version | Language    |
 | ---------------------------- | --------------- | ----------- |
-| 1.0.0 - 1.0.10               | 6.0             | Objective-C |
-| 1.1.0 - 2.2.0                | 8.0             | Objective-C |
+| 1.0.0                        | 6.0             | Objective-C |
+| 1.1.0                        | 8.0             | Objective-C |
 | 2.3.0                        | 9.0             | Objective-C |
 | 3.0.0                        | 9.0             | Swift       |
+| 3.0.1                        | 12.0            | Swift       |
 
 ## With Source Code
 
