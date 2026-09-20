@@ -1,6 +1,6 @@
 //
-//  MainViewController.swift
-//  LGSideMenuControllerDemo
+// MainViewController.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation
@@ -378,31 +378,31 @@ class MainViewController: LGSideMenuController {
         // To set status bar appearance you can use either default UIViewController methods:
         //
         // UIViewController {
-        //   prefersStatusBarHidden
-        //   preferredStatusBarStyle
-        //   preferredStatusBarUpdateAnimation
+        //  prefersStatusBarHidden
+        //  preferredStatusBarStyle
+        //  preferredStatusBarUpdateAnimation
         // }
         //
         // or LGSideMenuController specific methods:
         //
         // LGSideMenuController {
-        //   isRootViewStatusBarHidden
-        //   rootViewStatusBarStyle
-        //   rootViewStatusBarUpdateAnimation
+        //  isRootViewStatusBarHidden
+        //  rootViewStatusBarStyle
+        //  rootViewStatusBarUpdateAnimation
         //
-        //   isLeftViewStatusBarHidden
-        //   leftViewStatusBarStyle
-        //   leftViewStatusBarUpdateAnimation
+        //  isLeftViewStatusBarHidden
+        //  leftViewStatusBarStyle
+        //  leftViewStatusBarUpdateAnimation
         //
-        //   isRightViewStatusBarHidden
-        //   rightViewStatusBarStyle
-        //   rightViewStatusBarUpdateAnimation
+        //  isRightViewStatusBarHidden
+        //  rightViewStatusBarStyle
+        //  rightViewStatusBarUpdateAnimation
         // }
         //
         // =================================================================================
         //
         // For more information read README.md and wiki on github:
-        // https://github.com/Friend-LGA/LGSideMenuController
+        // https://github.com/LGLibs/LGSideMenuController
     }
 
     // MARK: - Logging -

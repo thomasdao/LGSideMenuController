@@ -1,6 +1,6 @@
 //
-//  RootViewControllerWithTextLabel.swift
-//  LGSideMenuControllerDemo
+// RootViewControllerWithTextLabel.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation
@@ -117,4 +117,3 @@ class RootViewControllerWithTextLabel : RootViewController {
     }
 
 }
-

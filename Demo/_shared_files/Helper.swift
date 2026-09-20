@@ -1,6 +1,6 @@
 //
-//  Helper.swift
-//  LGSideMenuControllerDemo
+// Helper.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation

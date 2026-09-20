@@ -1,6 +1,6 @@
 //
-//  RootTabBarController.swift
-//  LGSideMenuControllerDemo
+// RootTabBarController.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation
@@ -32,25 +32,25 @@ class RootTabBarController: UITabBarController {
         Counter.count += 1
         print("RootNavigationController.viewDidLoad(), counter: \(Counter.count)")
 
-//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .normal)
-//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .selected)
+//       UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .normal)
+//       UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .selected)
 
         setColors()
     }
 
-//    override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
-//        super.willTransition(to: newCollection, with: coordinator)
+//   override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+//       super.willTransition(to: newCollection, with: coordinator)
 //
-//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .normal)
-//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .selected)
-//    }
+//       UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .normal)
+//       UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .selected)
+//   }
 //
-//    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-//        super.viewWillTransition(to: size, with: coordinator)
+//   override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+//       super.viewWillTransition(to: size, with: coordinator)
 //
-//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .normal)
-//        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .selected)
-//    }
+//       UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .normal)
+//       UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: tabBar.bounds.height)], for: .selected)
+//   }
 
     // MARK: - Rotation -
 
@@ -82,8 +82,8 @@ class RootTabBarController: UITabBarController {
     // MARK: - Other -
 
     func setColors() {
-//        navigationBar.barTintColor = UIColor(white: (isLightTheme() ? 1.0 : 0.0), alpha: 0.9)
-//        navigationBar.titleTextAttributes = [.foregroundColor: (isLightTheme() ? UIColor.black : UIColor.white)]
+//       navigationBar.barTintColor = UIColor(white: (isLightTheme() ? 1.0 : 0.0), alpha: 0.9)
+//       navigationBar.titleTextAttributes = [.foregroundColor: (isLightTheme() ? UIColor.black : UIColor.white)]
     }
 
     // MARK: - Logging -
