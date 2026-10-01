@@ -1,6 +1,6 @@
 //
-//  RootViewControllerWithScrollView.swift
-//  LGSideMenuControllerDemo
+// RootViewControllerWithScrollView.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation

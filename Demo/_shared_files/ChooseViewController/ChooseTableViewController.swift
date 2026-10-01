@@ -1,6 +1,6 @@
 //
-//  ChooseTableViewController.swift
-//  LGSideMenuControllerDemo
+// ChooseTableViewController.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation
@@ -21,11 +21,11 @@ class ChooseTableViewController: UITableViewController {
     }
 
     // MARK: - UITableViewDataSource -
-    
+
     override func numberOfSections(in tableView: UITableView) -> Int {
         return DemoSection.allCases.count
     }
-    
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let demoSection = DemoSection(rawValue: section) else { return 0 }
         return demoSection.items.count
@@ -35,20 +35,20 @@ class ChooseTableViewController: UITableViewController {
         guard let demoSection = DemoSection(rawValue: section) else { return nil }
         return demoSection.description
     }
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
 
         guard let demoSection = DemoSection(rawValue: indexPath.section) else { return cell }
         let demoRow = demoSection.items[indexPath.row]
-        
+
         cell.accessoryType = .disclosureIndicator
         cell.textLabel!.font = UIFont.systemFont(ofSize: 16.0)
         cell.textLabel!.text = demoRow.title
 
         return cell
     }
-    
+
     // MARK: - UITableViewDelegate -
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -275,5 +275,5 @@ class ChooseTableViewController: UITableViewController {
 
         UIView.transition(with: window, duration: 0.3, options: [.transitionCrossDissolve], animations: nil)
     }
-    
+
 }

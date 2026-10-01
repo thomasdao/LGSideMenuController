@@ -1,6 +1,6 @@
 //
-//  RootViewController.swift
-//  LGSideMenuControllerDemo
+// RootViewController.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation

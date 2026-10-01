@@ -1,6 +1,6 @@
 //
-//  RightViewCell.swift
-//  LGSideMenuControllerDemo
+// RightViewCell.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation

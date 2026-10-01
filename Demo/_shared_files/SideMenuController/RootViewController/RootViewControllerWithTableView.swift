@@ -1,6 +1,6 @@
 //
-//  RootViewControllerWithTableView.swift
-//  LGSideMenuControllerDemo
+// RootViewControllerWithTableView.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation
@@ -106,5 +106,5 @@ class RootViewControllerWithTableView: RootViewController, UITableViewDelegate, 
         super.setColors()
         tableView.reloadData()
     }
-    
+
 }

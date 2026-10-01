@@ -1,6 +1,6 @@
 //
-//  AppDelegate.swift
-//  LGSideMenuControllerDemo
+// AppDelegate.swift
+// LGSideMenuControllerDemo
 //
 
 import Foundation
